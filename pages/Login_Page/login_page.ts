@@ -16,5 +16,8 @@ export class Login{
         await this.page.fill(selector.password, "Axess@2023")
         await this.page.waitForTimeout(1000)
         await this.page.click(selector.nextButton)
+        await this.page.click(selector.nextButton)
+        await this.page.click(selector.nextButton)
+
         }
 }
