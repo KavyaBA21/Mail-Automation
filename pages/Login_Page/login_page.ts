@@ -18,8 +18,6 @@ export class Login{
         await this.page.click(selector.nextButton)
         await this.page.click(selector.nextButton)
         await this.page.click(selector.nextButton)
-        await this.page.waitForTimeout(1000)
-        await this.page.waitForTimeout(1000)
 
         }
 }
