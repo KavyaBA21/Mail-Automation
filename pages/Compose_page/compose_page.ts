@@ -17,9 +17,8 @@ export class Compose{
         await this.page.click(selectors.sendButton)
         await this.page.waitForTimeout(5000)
         console.log("Test Case runnning")
+        await this.page.waitForTimeout(5000)
+        await this.page.waitForTimeout(5000)
         console.log("Test Passed")
-
-        
-
 }
 }
