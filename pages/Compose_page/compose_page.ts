@@ -18,6 +18,8 @@ export class Compose{
         await this.page.waitForTimeout(5000)
         console.log("Test Case runnning")
         console.log("Test Passed")
-        console.log("Completed")
+
+        
+
 }
 }
